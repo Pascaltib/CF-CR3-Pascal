@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Landing Page</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<img class="headerImage" src="img/logo.png">
+		<img id="banner" class="headerImage" src="img/banner.png">
+	</header>
+	<nav id="topNav">
+		<a class="bar" href="index.html">Home</a>
+		<a class="bar" href="team.html">Team</a>
+	</nav>
+	<main>
+		<!--top and bottom dive plus interface on floated over it-->
+		<div id="trafficDiv">
+			<div id="insuranceText">Car insurance</div>
+		</div>
+		<div id="greyDiv">
+			<div>Un-complicating car coverage</div>
+			<div class="smallText">Understanding your coverage options shouldn't be so hard. <br> We'll guide you through available coverage types, <br> starting with who and what is covered.</div>
+		</div>
+
+		<div id="extraInfo">
+			<div class="box">
+				<div class="innerBox">
+					<div class="blueText">What comes standard</div>
+					<div>The coverage you need </div>
+					<div><br><span class="check">&#10003</span> Bodily Injury Liability <br><br><span class="check">&#10003</span> Property Damage <br><br><span class="check">&#10003</span> Medical Payments</div>
+					<div><b><br><br>Benefits</b></div>
+					<div class="greyText">12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</div>
+				</div>
+
+			</div>
+
+			<div class="box" id="rightBox">
+				<div class="innerBox">
+					
+					<div class="blueText">What comes standard</div>
+					<div>The coverage you need </div>
+					<div><br><span class="check">&#10003</span> Bodily Injury Liability <br><br><span class="check">&#10003</span> Property Damage <br><br><span class="check">&#10003</span> Medical Payments</div>
+					<div><b><br><br>Benefits</b></div>
+					<div class="greyText">12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="customQuote">
+			<div id="quoteTitle">Great coverage begins <br> with a custom quote</div>
+			<div id= "quoteInput">
+				<div>
+					<label>Your name:</label><br>
+			        <input class="form" type="text" id="name"><br>
+			        <label>Country:</label><br>
+			        <select id="select">
+			        	<option value="0">Austria</option>
+				        <option value="1">Hungary</option>
+				        <option value="2">Greece</option>
+			        </select>
+				</div>
+				<div>
+					<label>Age:</label><br>
+			        <input class="form" type="text" id="age"><br>
+			        <label>Horsepower of your car:</label><br>
+			        <input class="form" type="text" id="horsepower">
+			        
+				</div>
+			</div>
+			<div id="buttonDiv">
+				<button id="calculate">Calculate</button>
+			</div>
+			<div id="result">Printed calculation goes here</div>
+		</div>
+	</main>
+	<footer>
+		<nav>
+			<a class="bar" href="">Home</a>
+			<a class="bar" href="">Team</a>
+		</nav>
+		<div id="bottomImageFlex">
+			<img class="headerImage" src="img/logo-inv.png">
+		</div>
+		<div id="bottomText">Pascal Tiberghien - CodeFactory 2020</div>
+	</footer>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
